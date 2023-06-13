@@ -1,0 +1,19 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .card {
+    width: 100px; /* Ajusta el tamaño de las cartas según sea necesario */
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 80px; /* Ajusta el tamaño de las cartas en dispositivos móviles */
+    }
+  }
+  
